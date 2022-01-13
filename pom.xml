@@ -30,6 +30,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				<uri>https://anypoint.mulesoft.com</uri>
+				<username>divz2</username>
+				<password>Bab@shiv342</password>
+				<workers>1</workers>
+				<workerType>Micro</workerType>
+				<environment>Sandbox</environment>
+				<muleVersion>4.4.0</muleVersion>
+				<applicationName>EMP-project-divz2</applicationName>
+				<objectStoreV2>true</objectStoreV2>
+				</cloudHubDeployment>
 					<sharedLibraries>
 						<sharedLibrary>
 							<groupId>mysql</groupId>
